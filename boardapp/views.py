@@ -19,7 +19,7 @@ def signupfunc(request):
     print(user3.email)
 
     if request.method == 'POST':
-        # POSTでもってきた、'username'(htmlファイルのタグの中のnameの部分)をusername変数に格納
+        # POSTでもってきた、'username'(htmlファイルのタグの中のnameの部分)をusername2変数に格納
         username2 = request.POST['username']
         password = request.POST['password']
         try:
